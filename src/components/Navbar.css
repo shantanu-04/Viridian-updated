@@ -21,7 +21,7 @@
   margin-left: 50px;
   transition: all 0.3s ease; 
 .links {
-  display: flex; /* Make the links container a flex container 
+  display: flex; Make the links container a flex container 
   align-items: center; Align links vertically 
 }*/
 
@@ -92,7 +92,7 @@
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
-} */
+}
 
 .navbar {
   padding-top: 20px;
