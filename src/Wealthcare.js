@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, /*useEffect*/ } from "react";
 import InvestmentForm from "./components/InvestmentForm";
 import PieChart from "./components/PieChart";
 import Chart from "./components/Chart";
