@@ -1,0 +1,14 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container label,
+  .form-container input {
+    margin: 10px;
+  }
+  
+.investment-form {
+  padding: 0 auto;
+}

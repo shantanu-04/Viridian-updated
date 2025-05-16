@@ -1,0 +1,46 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center; /* Center align the entire content within the App */
+}
+
+.form-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chart-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.chart {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* App.css */
+
+.graph-container {
+  display: flex;
+  justify-content: center; /* Center align the graphs within the container */
+}
+
+.graph,
+.pie-chart {
+  width: 45%;
+}
+
+.pie-chart {
+  margin-top: 20px;
+  margin-left: auto; /* Center align the pie chart within its container */
+  margin-right: auto; /* Center align the pie chart within its container */
+}
+
+/* Adjust the size of the pie chart */
+canvas {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,76 @@
+/* Global styles for responsiveness */
+.outermost-container {
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 400px;
+  margin-top: 100px;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.inner-container {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  background-size: cover; /* Make the background image cover the container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+/* Styles for different feature sections */
+.healthcare {
+  margin-left: 30px;
+}
+
+.wealthcare {
+  margin-right: 30px;
+}
+
+/* Styles for title */
+.title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #337ccf;
+  font-size: 40px;
+}
+
+.feature-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: grey;
+  font-size: 24px;
+  text-align: left;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .inner-container {
+    width: 100%;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: black; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: white; /* Darker blue color on hover */
+  color: black;
+  border: solid black 2px;
+}
